@@ -8,18 +8,24 @@ body {
   background-color: #f5ebe0;
 }
 
-header {
+header div {
   background-color: #d5bdaf;
   display: flex;
   align-content: space-between;
   align-items: center;
   min-height: 7rem;
+  padding: 0 1rem 0 1rem;
+}
+
+header div h2 {
+  font-size: 2rem;
+  padding-left: 1rem;
 }
 
 .logo {
-  width: 4.5rem;
+  width: 5rem;
+  border: solid 0.1rem rgba(0, 0, 0, 0.15);
   border-radius: 10rem;
-  padding: 0.5rem;
 }
 
 .botonsito {
